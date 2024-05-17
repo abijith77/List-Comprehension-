@@ -1,0 +1,13 @@
+(c)Write a program to generate first 20 Fibonacci numbers using list comprehension.
+
+Program:
+def fib(n):
+    a,b=0,1
+    for x in range(n):
+        a, b = b, a + b
+    return a
+fib_20= [fib(i) for i in range(20)]
+print(fib_20)
+
+Output:
+[0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181]
