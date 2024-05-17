@@ -1,0 +1,16 @@
+(h) Write a program to generate a 2D matrix of size 4 x 5 containing random multiples of 4 in the range 40 to 160
+
+Program:
+import random
+multiples_4 = [x for x in range(40, 161) if x % 4 == 0]
+matrix = [[random.choice(multiples_4) for _ in range(5)] for _ in range(4)]
+print("The 2D matrices of 4x5 is displayed below")
+for row in matrix:
+    print(row)
+
+Output:
+The 2D matrices of 4x5 is displayed below
+[72, 148, 96, 144, 160]
+[52, 88, 64, 120, 56]
+[96, 56, 152, 64, 44]
+[160, 92, 116, 52, 136]
