@@ -1,0 +1,9 @@
+(b)Using list comprehension, write a program to create a list by multiplying each element in the list by 10.
+
+Program:
+lst= [2,4,6,8,10]
+new_list = [x*10 for x in lst]
+print(new_list)
+
+Output:
+[20, 40, 60, 80, 100]
