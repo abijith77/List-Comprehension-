@@ -1,0 +1,12 @@
+(i)How will you convert the following code into a list comprehension?
+a = []
+    for n in range(10, 30):
+        if n % 2 == 0:
+            a.append(n)
+
+Program:
+a = [n for n in range(10, 30) if n % 2 == 0]
+print(a)
+
+Output:
+[10, 12, 14, 16, 18, 20, 22, 24, 26, 28]
