@@ -1,0 +1,9 @@
+(g)Write a program that converts list of temperatures in Fahrenheit degrees to equivalent Celsius degrees using list comprehension.
+
+Program:
+fahrenheit= [37, 68, 77, 104, 911]
+celsius= [int((f - 32) * 5/9) for f in fahrenheit]
+print("Fahrenheit to celsius is",celsius)
+
+Output:
+Fahrenheit to celsius is [2, 20, 25, 40, 488]
