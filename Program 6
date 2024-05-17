@@ -1,0 +1,9 @@
+(f)Suppose a list contains 5 strings. Write a program to convert all these strings to uppercase.
+
+Program:
+str= ["hello", "world", "python", "list", "comprehension"]
+uppercase_str = [s.upper() for s in str]
+print(uppercase_str)
+
+Output:
+['HELLO', 'WORLD', 'PYTHON', 'LIST', 'COMPREHENSION']
